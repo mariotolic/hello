@@ -1,8 +1,8 @@
 ---
-- name: Hello World!
+- name: Version!
   hosts: all
 
   tasks:
 
-  - name: Hello World!
-    shell: echo "Hi! Tower is working!"
+  - name: Version!
+    shell: uname -r
