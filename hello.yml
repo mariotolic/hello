@@ -1,8 +1,0 @@
----
-- name: Version!
-  hosts: all
-
-  tasks:
-
-  - name: Version!
-    shell: uname -r
